@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Sofcatala Corrector Chrome Extension",
+    "version": "1.0",
+
+    "description": "This extension allow to use Softcatala corrector directly form extension bar",
+    "icons": {
+        "19" : "images/icon_19.png",
+        "38" : "images/icon_38.png",
+        "128": "images/icon_128.png",
+        "250": "images/icon_250.png"
+
+    },
+
+    "browser_action": {
+        "default_icon":{
+             "19" : "images/icon_19.png",
+             "38" : "images/icon_38.png"
+        },
+        "default_title": "Mostra ventana del corrector", 
+        "default_popup": "popup.html"
+    },
+
+    "author": "Gonzalo Cao Cabeza de Vaca gonzalo.cao@gmail.com",
+    "homepage_url": "http://github.com/gonzalo"
+}
